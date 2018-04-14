@@ -126,7 +126,7 @@ const configDefault = {
     // chat window text placeholder
     textInputPlaceholder: 'Type here or click on the mic',
 
-    toolbarColor: 'red',
+    toolbarColor: '#31B896',
 
     // chat window title
     toolbarTitle: 'Order Flowers',

@@ -1,6 +1,6 @@
 <template>
   <v-card>
-    <v-card-title v-if="responseCard.title.trim()" primary-title class="red lighten-5">
+    <v-card-title v-if="responseCard.title.trim()" primary-title class="blue-bg lighten-5 center">
       <span class="headline">{{responseCard.title}}</span>
     </v-card-title>
     <v-card-text v-if="responseCard.subTitle">
@@ -83,16 +83,55 @@ export default {
   width: 75vw;
   position: inherit; /* workaround to card being displayed on top of toolbar shadow */
   padding-bottom: 0.5em;
+      height: auto;
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    box-shadow: 0 0 0 0 rgba(0,0,0,0);
+}
+.btn {
+    background-color: rgba(49, 184, 150, 1) !important;
+    color: #fff;
+    border-radius: 11px;
+    display: inline-block;
+    font-weight: 800;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    box-shadow: 0 0 0 0 !important;
 }
 .card__title {
   padding: 0.5em;
   padding-top: 0.75em;
+  font-family: 'Nunito Sans', sans-serif;
 }
 .card__text {
   padding: 0.33em;
+  font-family: 'Nunito Sans', sans-serif;
+  text-align: center;
+  padding: 10px;
 }
 .card__actions.button-row {
   justify-content: center;
   padding-bottom: 0.15em;
+  font-family: 'Nunito Sans', sans-serif;
 }
 </style>

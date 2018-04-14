@@ -251,6 +251,15 @@ export default {
 <style>
 .footer {
   /* make footer same height as dense toolbar */
-  min-height: 48px;
+  min-height: 58px;
+}
+.toolbar__content {
+    height: 70px !important;
+}
+.primary--text {
+    color: #31B896 !important;
+}
+.input-group--text-field input {
+  height: 35px !important;
 }
 </style>

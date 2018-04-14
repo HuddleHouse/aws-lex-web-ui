@@ -64,9 +64,13 @@ export default {
 
 .message-bot {
   align-self: flex-start;
+  padding-left: 20px;
 }
 
 .message-human {
   align-self: flex-end;
+  padding-right: 20px;
+  color: #fff !important;
 }
+
 </style>

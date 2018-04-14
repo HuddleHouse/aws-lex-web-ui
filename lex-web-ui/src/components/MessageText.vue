@@ -120,7 +120,7 @@ export default {
 .message-text {
   hyphens: auto;
   overflow-wrap: break-word;
-  padding: 0.8em;
+  padding: 0.4em;
   white-space: normal;
   word-break: break-word;
 }

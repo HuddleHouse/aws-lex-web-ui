@@ -235,11 +235,12 @@ export default {
 }
 
 .message-bot .message-bubble {
-  background-color: #FFEBEE; /* red-50 from material palette */
+  background-color: #f8f8f8;
 }
 
 .message-human .message-bubble {
-  background-color: #E8EAF6; /* indigo-50 from material palette */
+    background-color: #31B896;
+        font-weight: 700;
 }
 
 .dialog-state {

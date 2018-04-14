@@ -31,7 +31,7 @@ import Vuetify from 'vuetify';
 import Page from '@/components/Page';
 import { Loader as LexWebUi } from '@/lex-web-ui';
 
-import flowerLogo from '../node_modules/material-design-icons/maps/2x_web/ic_local_florist_white_18dp.png';
+import flowerLogo from './assets/storage_pug_logo.png';
 
 function getToolbarLogo() {
   // Search for logo image files in ../assets/
@@ -80,7 +80,31 @@ export default {
 </script>
 
 <style>
-@import '../node_modules/roboto-fontface/css/roboto/roboto-fontface.css';
 @import '../node_modules/material-design-icons/iconfont/material-icons.css';
 @import '../node_modules/vuetify/dist/vuetify.min.css';
+@import 'https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css'
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
+
+.message-text, .toolbar__title, #text-input {
+  font-family: 'Nunito Sans', sans-serif;
+}
+.application.theme--light {
+  background: #fff !important;
+}
+.primary-bg {
+  background: #31B896;
+  color: #fff !important;
+}
+.blue-bg {
+  background: #3D73B9;
+  color: #fff !important;
+}
+.primary-c {
+  color: #31B896;
+}
+.center {
+  text-align: center;
+      display: block;
+}
+
 </style>

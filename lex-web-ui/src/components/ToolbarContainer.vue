@@ -80,3 +80,9 @@ export default {
   },
 };
 </script>
+
+<style>
+.application .theme--dark.toolbar, .theme--dark .toolbar {
+  background-color: #31B896 !important;
+}
+</style>
