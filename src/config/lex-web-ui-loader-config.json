@@ -4,8 +4,8 @@
   },
   "lex": {
     "botName": "StoragePug_Onboarding",
-    "initialText": "You can ask me for help ordering flowers. Just type \"Buy flowers\" or click on the mic and say it.",
-    "initialSpeechInstruction": "Say 'Buy Flowers' to get started."
+    "initialText": "👋 Hello! I'm PugBot, the StoragePug onboarding bot. I'll guide you through the first onboarding session! Type 'ready' to begin.",
+    "initialSpeechInstruction": "Hello!! I'm PugBot, the StoragePug on boarding bot. I'll guide you through the first onboarding session! Say 'I'm ready', to get started with on boarding part 1."
   },
   "ui": {
     "parentOrigin": "",

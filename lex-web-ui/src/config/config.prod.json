@@ -1,19 +1,19 @@
 {
   "cognito": {
-    "poolId": ""
+    "poolId": "us-east-1:1f6466fa-b5a7-44c5-80ea-0273e10ceeec"
   },
   "lex": {
-    "botName": "WebUiOrderFlowers",
-    "initialText": "You can ask me for help ordering flowers. Just type \"order flowers\" or click on the mic and say it.",
-    "initialSpeechInstruction": "Say 'Order Flowers' to get started."
+    "botName": "StoragePug_Onboarding",
+    "initialText": "👋 Hello! I'm PugBot, the StoragePug onboarding bot. I'll guide you through the first onboarding session! Type 'ready' to begin.",
+    "initialSpeechInstruction": "Hello!! I'm PugBot, the StoragePug on boarding bot. I'll guide you through the first onboarding session! Say 'I'm ready', to get started with on boarding part 1."
   },
   "polly": {
-    "voiceId": "Salli"
+    "voiceId": "Matthew"
   },
   "ui": {
-    "parentOrigin": "",
-    "pageTitle": "Order Flowers Bot",
-    "toolbarTitle": "Order Flowers"
+    "parentOrigin": "http://localhost:8080",
+    "pageTitle": "StoragePug Onboarding",
+    "toolbarTitle": "StoragePug Onboarding"
   },
   "recorder": {
     "preset": "speech_recognition"
