@@ -70,7 +70,6 @@ export default {
 .message-human {
   align-self: flex-end;
   padding-right: 20px;
-  color: #fff !important;
 }
 
 </style>

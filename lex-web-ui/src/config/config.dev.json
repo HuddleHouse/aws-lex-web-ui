@@ -5,7 +5,7 @@
   "lex": {
     "botName": "StoragePug_Onboarding",
     "initialText": "👋 Hello! I'm PugBot, the StoragePug onboarding bot. I'll guide you through the first onboarding session! Type 'ready' to begin.",
-    "initialSpeechInstruction": "Say 'I'm ready', to get started with StoragePugs onboarding part 1."
+    "initialSpeechInstruction": "Hello!! I'm PugBot, the StoragePug on boarding bot. I'll guide you through the first onboarding session! Say 'I'm ready', to get started with on boarding part 1."
   },
   "polly": {
     "voiceId": "Matthew"

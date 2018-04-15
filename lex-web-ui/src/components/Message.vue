@@ -241,6 +241,7 @@ export default {
 .message-human .message-bubble {
     background-color: #31B896;
         font-weight: 700;
+  color: #fff !important;
 }
 
 .dialog-state {
